@@ -1,0 +1,68 @@
+2023-05-15T08:48:22.479Z | ERROR  | DB Connection Fail | MongoServerError: bad auth : authentication failed
+    at Connection.onMessage (/Users/yashpatel/Desktop/SplitApp-main/node_modules/mongodb/lib/cmap/connection.js:210:30)
+    at MessageStream.<anonymous> (/Users/yashpatel/Desktop/SplitApp-main/node_modules/mongodb/lib/cmap/connection.js:63:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (/Users/yashpatel/Desktop/SplitApp-main/node_modules/mongodb/lib/cmap/message_stream.js:132:20)
+    at MessageStream._write (/Users/yashpatel/Desktop/SplitApp-main/node_modules/mongodb/lib/cmap/message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at TLSSocket.ondata (node:internal/streams/readable:766:22)
+    at TLSSocket.emit (node:events:513:28)
+2023-05-15T08:49:03.348Z | ERROR  | DB Connection Fail | MongoServerError: bad auth : authentication failed
+    at Connection.onMessage (/Users/yashpatel/Desktop/SplitApp-main/node_modules/mongodb/lib/cmap/connection.js:210:30)
+    at MessageStream.<anonymous> (/Users/yashpatel/Desktop/SplitApp-main/node_modules/mongodb/lib/cmap/connection.js:63:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (/Users/yashpatel/Desktop/SplitApp-main/node_modules/mongodb/lib/cmap/message_stream.js:132:20)
+    at MessageStream._write (/Users/yashpatel/Desktop/SplitApp-main/node_modules/mongodb/lib/cmap/message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at TLSSocket.ondata (node:internal/streams/readable:766:22)
+    at TLSSocket.emit (node:events:513:28)
+2023-05-15T08:50:41.572Z | ERROR  | DB Connection Fail | MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+    at new ConnectionString (/Users/yashpatel/Desktop/SplitApp-main/node_modules/mongodb-connection-string-url/lib/index.js:86:19)
+    at parseOptions (/Users/yashpatel/Desktop/SplitApp-main/node_modules/mongodb/lib/connection_string.js:209:17)
+    at new MongoClient (/Users/yashpatel/Desktop/SplitApp-main/node_modules/mongodb/lib/mongo_client.js:62:63)
+    at /Users/yashpatel/Desktop/SplitApp-main/node_modules/mongoose/lib/connection.js:796:16
+    at new Promise (<anonymous>)
+    at Connection.openUri (/Users/yashpatel/Desktop/SplitApp-main/node_modules/mongoose/lib/connection.js:793:19)
+    at /Users/yashpatel/Desktop/SplitApp-main/node_modules/mongoose/lib/index.js:377:10
+    at /Users/yashpatel/Desktop/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/yashpatel/Desktop/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+2023-05-15T08:52:34.990Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password ! Error: Invalid email Id or Password !
+    at exports.userLogin (/Users/yashpatel/Desktop/SplitApp-main/components/user.js:66:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-05-15T08:52:49.330Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2023-05-15T08:53:47.123Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2023-05-15T08:53:58.748Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2023-05-15T08:54:01.364Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2023-05-15T08:54:05.055Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2023-05-15T08:54:22.381Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password ! Error: Invalid email Id or Password !
+    at exports.userLogin (/Users/yashpatel/Desktop/SplitApp-main/components/user.js:66:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-05-15T08:54:37.525Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2023-05-15T08:55:06.536Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2023-05-15T08:58:33.314Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2023-05-15T08:58:38.892Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2023-05-15T08:58:42.276Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2023-05-15T08:58:55.647Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2023-05-15T08:58:58.981Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2023-05-15T08:59:14.893Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2023-05-15T08:59:22.438Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2023-05-15T08:59:40.544Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2023-05-15T08:59:43.260Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2023-07-14T06:39:07.565Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2023-07-14T06:39:44.055Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2023-07-14T06:40:08.582Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2023-07-14T06:40:26.688Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2023-07-14T06:41:11.452Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2023-07-14T06:44:54.597Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2023-07-14T06:49:14.793Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2023-07-14T06:49:14.901Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2023-07-14T06:49:41.282Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2023-07-14T06:49:41.378Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2023-07-14T16:01:14.888Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2023-07-14T16:01:14.991Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2023-07-14T16:01:24.250Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
